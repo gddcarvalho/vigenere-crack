@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vigenère Crack</title>
+  <link rel="stylesheet" href="./main.css" />
+  <script type="text/javascript" src="./vigenere.js"></script>
+  <script type="text/javascript" src="./main.js"></script>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<%= yield %>
+<button id="crack_button">Crack</button>
+</body>
+</html>
